@@ -1,14 +1,48 @@
 VERSION 5.00
 Begin VB.Form Form1 
    Caption         =   "GDISM"
-   ClientHeight    =   2850
+   ClientHeight    =   5190
    ClientLeft      =   120
    ClientTop       =   465
-   ClientWidth     =   4020
+   ClientWidth     =   4530
    LinkTopic       =   "Form1"
-   ScaleHeight     =   2850
-   ScaleWidth      =   4020
+   ScaleHeight     =   5190
+   ScaleWidth      =   4530
    StartUpPosition =   3  'Windows 기본값
+   Begin VB.OptionButton Option5 
+      Caption         =   "이미지 언마운트"
+      BeginProperty Font 
+         Name            =   "맑은 고딕"
+         Size            =   9
+         Charset         =   129
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   615
+      Left            =   600
+      TabIndex        =   6
+      Top             =   3720
+      Width           =   2415
+   End
+   Begin VB.OptionButton Option4 
+      Caption         =   "이미지 마운트"
+      BeginProperty Font 
+         Name            =   "맑은 고딕"
+         Size            =   9
+         Charset         =   129
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   495
+      Left            =   600
+      TabIndex        =   5
+      Top             =   3000
+      Width           =   2175
+   End
    Begin VB.OptionButton Option3 
       Caption         =   "wim에디션 확인하기"
       BeginProperty Font 
@@ -72,9 +106,9 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   615
-      Left            =   2880
+      Left            =   3480
       TabIndex        =   0
-      Top             =   1920
+      Top             =   4440
       Width           =   855
    End
    Begin VB.Label Label1 
@@ -118,6 +152,14 @@ Form4.Show
 ElseIf Option3 = True Then
 
 Form6.Show
+
+ElseIf Option4 = True Then
+
+Form7.Show
+
+ElseIf Option5 = True Then
+
+Form8.Show
 
 Else
 

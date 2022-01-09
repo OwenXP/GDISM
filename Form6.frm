@@ -67,6 +67,8 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 
 Private Sub Command1_Click()
-Shell ("dism /get-imageinfo /imagefile:" + Text1.Text), vbNormalNoFocus
+Shell ("cmd /k dism /get-imageinfo /imagefile:" + Text1.Text), vbNormalNoFocus
+
+
 End Sub
 

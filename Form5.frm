@@ -66,7 +66,8 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub Command1_Click()
 
-Shell (Label1.Caption), vbNormalNoFocus
+Shell ("cmd /k " + Label1.Caption), vbNormalNoFocus
 
 
 End Sub
+

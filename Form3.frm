@@ -85,7 +85,7 @@ Private Sub Command1_Click()
 
 a = Label8.Caption
 
-Shell (a), vbNormalNoFocus
+Shell ("cmd /k " + a), vbNormalNoFocus
 
 
 End Sub
