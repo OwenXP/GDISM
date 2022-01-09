@@ -2,6 +2,7 @@
 ![Main](https://user-images.githubusercontent.com/91373043/148665436-6cb74bf8-78bf-4bbb-8505-ac9bb8cc0414.png)
 
 Please Run As Administrator
+
 Guide Site is <a rel="license" href="https://owenxp.github.io/gdism/">This</a>
 ## Functions
 ### Capture Image
